@@ -1,0 +1,78 @@
+body {
+  font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: url(./Images/bg\ image.jpg);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h1,h2,p {
+  margin-top: 0;
+  text-align: center;
+  color: #ececec;
+}
+
+#new-btn{
+  text-align: center;
+  float: left;
+  margin-left: 320px;
+}
+
+#correctImage {
+  position: fixed;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#incorrectImage {
+  position: fixed;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#game {
+  display: none;
+  margin: 30px 0;
+}
+
+#item {
+  max-width: 400px;
+  max-height: 400px;
+  margin: 20px 0;
+}
+
+#options {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 30px;
+}
+button:hover{
+  background-color: black;
+  color: white;
+  border: none;
+}
+#score {
+  font-size: 20px;
+}
